@@ -62,11 +62,6 @@ def main():
         placeholder="Example: be more patient, lower my voice, focus better"
     )
 
-    mood = st.slider(
-        "How was your emotional state today?",
-        min_value=1,
-        max_value=10,
-        value=5
     )
 
     if st.button("Save Reflection"):
